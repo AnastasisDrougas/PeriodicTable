@@ -460,7 +460,7 @@ int F5(int min_a_n,int max_a_n,char cg[50],float min_a_mass,float max_a_mass,cha
             else
                 i++;
         }
-        printf("\n\n  What would you like to do next? \n  1. Continue searching for group of elements.\n  2. Go back to the beggining.\n  Type your selection:  "); //Checking if the user wants to continue searching for group of elements.
+        printf("\n\n  What would you like to do next? \n  1. Continue searching for group of elements.\n  2. Go back to the beginning.\n  Type your selection:  "); //Checking if the user wants to continue searching for group of elements.
         do 
         {
             if ((scanf("%d",&con_rest)!=1) || (con_rest!=1 && con_rest!=2))
